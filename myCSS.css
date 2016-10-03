@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Sep, 2016, 11:58:31 AM
+    Author     : ubuntu
+*/
+body{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left:  5px;
+    padding-right:  5px;
+    overflow-y: hidden;
+    
+}
+.full{
+    border: 1px solid;
+    padding: 5px;
+    
+}
+.win_body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+div.header_bar{
+    height: 50px;
+    background-color: #665443;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    padding: auto;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 25px;
+
+}
+.serh{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input#search{
+    background-color: #E0D9D9;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+    
+    
+}
+input::-webkit-input-placeholder {
+    color: RGBA(0,0,0, 0.2);
+}
+div.player_list{
+    width: 20%;
+    border: black;
+    height: 100vh;
+    border: 1px solid;
+    
+    overflow-y: auto;
+
+}
+div.player_list input{
+    align-content: center;
+}
+.player_list >.list> .li{
+    height: 50px;
+    /*border-bottom:  1px solid; 
+    border-top: 1px solid;*/
+    margin-bottom: -20px;    
+    margin-top: 0px;
+    padding-left: 10px;
+    text-align-last: justify;
+    vertical-align: middle;
+    margin-left: -29px;
+    
+}
+.player_list >.list> .li> a{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.player_body{
+    position: absolute;
+    left: 20.3%;
+    width: 79%;
+    height: 200px;
+    padding: 20px;
+    overflow-x: hidden ;
+    border: 1px solid;
+    border-left-color: white;
+}
+.image_weget{
+    position: relative;
+    left: 36px;
+    width: 150px; 
+    height: 150px;
+    border: 1px solid;
+    
+    background-color: tan;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.player_score .score_widget{
+    position: absolute;
+    width: 500px;
+    height: 114px;
+    left: 25%;
+    bottom: 25%;    
+}
+
+.player_score .score_widget >p{
+    font-family: sans-serif ;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    
+}
+.player_score .score_widget .score_color{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    background-color: #FF0000;   
+}
+
+.player_score .score_widget .rank_color{
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: #7AC943;
+}
+
+.player_hist{
+    position: absolute;
+    top: 34%;
+    left: 22%; 
+    width: 77%;
+    height: 64%;
+    //border: 1px solid;
+    overflow: auto;
+    
+}
+.player_hist #header{
+    font-size: 24pt;
+}
+
+.player_hist.event{
+    width: 70%;
+    line-height: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.player_hist.event .para{
+    line-height: 10px;
+    width: 75%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+.list {
+  font-family:sans-serif;
+  margin:0;
+  padding:20px 0 0;
+}
+.list > li {
+  display:block;
+  background-color: #eee;
+  padding:10px;
+  box-shadow: inset 0 1px 0 #fff;
+}
+.avatar {
+  max-width: 150px;
+}
+img {
+  max-width: 100%;
+}
+h3 {
+  font-size: 16px;
+  margin:0 0 0.3rem;
+  font-weight: normal;
+  font-weight:bold;
+}
+p {
+  margin:0;
+}
+
+input {
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
+}
+input:focus {
+  outline:none;
+  border-color:#aaa;
+}
+.sort {
+  padding:8px 30px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+  height:30px;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color:#1b8aba;
+}
+.sort:focus {
+  outline:none;
+}
+.sort:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:13px;
+  right:-5px;
+}
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+    
