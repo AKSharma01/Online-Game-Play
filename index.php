@@ -10,11 +10,11 @@ and open the template in the editor.
         <title>Online Game Play</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-            <link rel="stylesheet" href="script/myCSS.css"/>
+            <link rel="stylesheet" href="myCSS.css"/>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="http://listjs.com/no-cdn/list.js"></script>
-            <script src="script/myScript.js"></script>
+            <script src="myScript.js"></script>
             <style >
                 /*div.player_list{
                     background-color: #333;
